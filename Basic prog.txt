@@ -1,0 +1,10 @@
+Public class LearnJava
+{
+  Public static void main(string [] args)
+  {
+    system.out.println("My java basic prog");
+       int age;
+       age='25'
+        system.out.println("sys age is" +age);
+  }
+}
