@@ -4,11 +4,11 @@
     <property environment="env"/>
 
 	<target name="test">
-      <sf:deploy username="${username}" password="${password}" serverurl="${serverurl}" deployRoot="./" runAllTests="true" />
+      <sf:deploy username="${chinna@yella.com}" password="${jaipal@123}" serverurl="${https://yelson-dev-ed.my.salesforce.com}" deployRoot="./" runAllTests="true" />
     </target>
 
 	<target name="clean">
-      <sf:deploy username="${username}" password="${password}" serverurl="${serverurl}" deployRoot="clean" />
+      <sf:deploy username="${chinna@yella.com}" password="${jaipal@123}" serverurl="${https://yelson-dev-ed.my.salesforce.com}" deployRoot="clean" />
     </target>
 
 </project>
